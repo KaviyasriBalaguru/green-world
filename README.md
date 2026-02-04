@@ -7,12 +7,12 @@ This project simulates a real online shopping experience for plants and seeds wi
 ---
 
 ## 🚀 Live Demo
-🔗 https://yourusername.github.io/green-world/
+🔗 https://Kaviyasribalaguru.github.io/green-world/
 
 ---
 
 ## 📂 GitHub Repository
-🔗 https://github.com/yourusername/green-world
+🔗 https://github.com/Kaviyasribalaguru/green-world
 
 ---
 
@@ -90,4 +90,4 @@ Frontend Developer | Web Enthusiast
 Give it a ⭐ on GitHub and feel free to fork it!
 =======
 # green-world
->>>>>>> fecdc00cc1534acf82cbc93dc6edc68c085792a6
+
