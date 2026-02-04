@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image.png">
+</head>
+<body>
+    <nav class="top">
+        <h1>Green World</h1>
+        <ul>
+            <a href="seed.html"><li>Seeds |</li></a>
+            <a href="plant.html"><li>Plants 🪴 |</li></a>
+            <a href="cart.html"><li>Cart 🛒</li></a>
+        </ul>
+    </nav>
+    <div id="s">
+    <input type="text" placeholder="🔍 Search " id="search" >  
+  </div>
+    <div id="product"> 
+    <div class="product seed">
+        <img src="seedsimg/sun.png">
+        <p>Sunflower Seeds (200g)</p>
+        <p>Rs.250</p>
+        <button type="button" class="button" onclick="addToCart('Sunflower Seeds', 250)" >Add to Cart</button>
+    </div>
+    <div class="product seed">
+      <img src="seedsimg/chiaa.png">
+      <p>Chia seeds (500g)</p>
+      <p>Rs.150</p>
+      <button type="button" class="button"  onclick="addToCart('Chia Seeds', 150)">Add to Cart</button>
+    </div>
+    <div class="product seed">
+        <img src="seedsimg/kara.png">
+        <p>Hyacinth bean seeds (150g)</p>
+        <p>Rs.200</p>
+        <button type="button" class="button"  onclick="addToCart('Hyacinth bean Seeds', 200)" >Add to Cart</button>
+    </div>
+    <div class="product seed">
+        <img src="seedsimg/sesa.png">
+        <p>Black sesame seeds (200g)</p>
+        <p>Rs.300</p>
+        <button type="button" class="button" onclick="addToCart('Sesame Seeds', 300)" >Add to Cart</button>
+    </div>
+     <div class="product seed">
+        <img src="seedsimg/pum.png">
+        <p>Pumkin seeds (200g)</p>
+        <p>Rs.250</p>
+        <button type="button" class="button"  onclick="addToCart('Pumkin Seeds', 250)">Add to Cart</button>
+    </div>
+     <div class="product seed">
+        <img src="seedsimg/chilli.png">
+        <p>Chilli seeds (200g)</p>
+        <p>Rs.100</p>
+        <button type="button" class="button"  onclick="addToCart('Chilli Seeds', 100)">Add to Cart</button>
+    </div>
+     <div class="product seed">
+        <img src="seedsimg/bean.png">
+        <p>Bean seeds (200g)</p>
+        <p>Rs.100</p>
+        <button type="button" class="button" onclick="addToCart('Beans Seeds', 100)" >Add to Cart</button>
+    </div>
+     <div class="product seed">
+        <img src="seedsimg/tomato.png">
+        <p>Tomato seeds (200g)</p>
+        <p>Rs.50</p>
+        <button type="button" class="button" onclick="addToCart('Tomato Seeds', 50)" >Add to Cart</button>
+    </div>
+
+ <div class="about">
+        <h1 style="text-align:center">About Us</h1>
+        <p>We provide a wide range of fresh vegetable plants, high-quality vegetable seeds, flower seeds, and both indoor and outdoor flowering plants. Our goal is to promote healthy gardening by offering reliable, naturally grown plants and seeds that help every home and garden grow greener.</p>
+    </div>
+    <div class="product plant">
+        <img src="plantimg/brin.png">
+        <p>Brinjal plant (5) </p>
+        <p>Rs.200</p>
+        <button type="button" class="button"  onclick="addToCart('Brinjal plant', 200)"  >Add to Cart</button>
+    </div>
+     <div class="product plant">
+        <img src="plantimg/ava.png">
+        <p>Avaraikai plant (5) </p>
+        <p>Rs.60</p>
+        <button type="button" class="button" onclick="addToCart('Avaraikai plant', 60)" >Add to Cart</button>
+    </div>
+     <div class="product plant">
+        <img src="plantimg/chil.png">
+        <p>Chilli plant (5) </p>
+        <p>Rs.100</p>
+        <button type="button" class="button"  onclick="addToCart('Chilli plant', 100)" >Add to Cart</button>
+    </div>
+     <div class="product plant">
+        <img src="plantimg/tom.png">
+        <p>Tomato plant (5) </p>
+        <p>Rs.300</p>
+        <button type="button" class="button" onclick="addToCart('Tomato plant', 300)" >Add to Cart</button>
+    </div>
+    <div class="product plant">
+       <img src="outimg/hib.png">
+       <p>Hibiscus Plant (1)</p>
+       <p>Rs.200</p>
+       <button type="button" class="button" onclick="addToCart('Hibiscus plant', 200)" >Add to Cart</button>
+    </div>
+     <div class="product plant">
+       <img src="outimg/civil.png">
+       <p>Clivia Flower plant (1)</p>
+       <p>Rs.500</p>
+       <button type="button" class="button" onclick="addToCart('Clivia plant', 500)" >Add to Cart</button>
+    </div>
+     <div class="product plant">
+       <img src="outimg/rose.png">
+       <p>Rose Flower plant (1)</p>
+       <p>Rs.200</p>
+       <button type="button" class="button" onclick="addToCart('Rose Flower plant', 200)"  >Add to Cart</button>
+    </div>
+     <div class="product plant">
+       <img src="outimg/cham.png">
+       <p>Plumeria champa plant(1)</p>
+       <p>Rs.400</p>
+       <button type="button" class="button"  onclick="addToCart('Plumeria champa plant', 400)" >Add to Cart</button>
+    </div>
+    <br>
+    
+   
+   
+    <footer class="footer">
+    <div class="footer-content">
+        <h3>Contact Us</h3>
+        <p>📍 Chennai, Tamil Nadu</p>
+        <p>📞 +91 98765 43210</p>
+        <p>📧 greenworld@gmail.com</p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Green World. All Rights Reserved.</p>
+    </div>
+
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

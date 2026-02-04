@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | Green World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+ <nav class="top">
+        <h1>Green World</h1>
+        <ul>
+            <a href="seed.html"><li>Seeds |</li></a>
+            <a href="plant.html"><li>Plants 🪴 |</li></a>
+            <a href="cart.html"><li>Cart 🛒</li></a>
+            <a href="index.html"><li>Home</li></a>
+        </ul>
+    </nav>
+
+<!-- CART SECTION -->
+<div class="cart-container">
+
+    <h2>Your Cart</h2>
+
+    <!-- CART ITEM -->
+    <div id="cart-items"></div>
+
+    <!-- TOTAL -->
+    <div class="cart-summary">
+        <h3 id="total">Total: ₹50</h3>
+        <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
+    </div>
+
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
