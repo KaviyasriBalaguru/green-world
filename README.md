@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌱 Green World – Plants & Seeds E-Commerce Website
 
 Green World is a front-end e-commerce website developed using **HTML, CSS, and JavaScript**.  
@@ -87,3 +88,6 @@ Frontend Developer | Web Enthusiast
 ## ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to fork it!
+=======
+# green-world
+>>>>>>> fecdc00cc1534acf82cbc93dc6edc68c085792a6
