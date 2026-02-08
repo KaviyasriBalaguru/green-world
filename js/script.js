@@ -23,9 +23,10 @@ function login() {
         errorMsg.innerText = "Wrong password.";
     }
     else {
-        // success
-        window.location.href = "index.html";
+        localStorage.setItem("isLoggedIn", "true");
+         window.location.href = "index.html";
     }
+
 }
 
 
