@@ -6,6 +6,11 @@
     <title>Green World</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="image.png">
+    <script>
+    if(localStorage.getItem("isLoggedIn") !== "true"){
+        window.location.href = "login.html";
+        }
+    </script>
 </head>
 <body>
     <nav class="top">
@@ -138,12 +143,6 @@
     </div>
 
     </div>
-    <script src="js/script.js"></script>
-    <script>
-    if(localStorage.getItem("isLoggedIn") !== "true"){
-    window.location.href = "login.html";
-    }
-   </script>
-
-</body>
+      <script src="js/script.js"></script>
+  </body>
 </html>
